@@ -1,0 +1,116 @@
+h1, div {
+    color: blue;
+    text-decoration: underline;
+    text-transform: lowercase; 
+    text-align: center;
+    
+}
+body{
+   background-image: url(./20211107094748_IMG_8833.JPG);
+    background-repeat: no-repeat;
+    background-size: 1600px 1040px;
+    
+
+}
+.intro{
+    color: purple;
+    text-decoration: underline;
+    
+    text-transform: uppercase;
+    padding: 10px;
+    border: 10px dotted blue;
+    border-radius: 200px;
+    margin:200px 100px 100px 300px;
+    background-image: url(./20211107094748_IMG_8833.JPG);
+    
+}
+#idSelector{
+    color: purple;
+    text-align: center;
+}
+li  {
+    display :inline;
+    font-size: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: green;
+    padding: 15px;
+    
+}
+
+#roundedCorner{
+    border-radius: 50px;
+    text-align: center;
+    border: 5px double;
+    border-color: purple red maroon violet;
+    margin: 5px;
+    width: 400px;
+    background-color: aqua;
+
+}
+
+#rectangle{
+    border: solid;
+   background-color: red;
+    height: 200px;
+    width: 400px;
+    border-left-style: dotted;
+    display: inline-block;
+    float: right;
+
+}
+
+#box1{
+    border: solid;
+    width: 300px;
+    height: 100px;
+    border: solid;
+    display: inline-block;
+    float: right;
+   background-image: url(./images.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px 800px;
+
+}
+/*Decendant Selectors*/
+ /*div p{
+    color: marine;
+}*/
+/*Child selector*/
+/*div > p{
+    color: red;  
+}*/
+/*Adjustant sibling selector*/
+/*div + p {
+    color: blue; 
+} */
+/*General sibling selector*/
+div ~ p{
+    color: green;
+}
+
+.fixed{
+    position: fixed;
+    top: 0%;
+    font-size: 35px;
+    left: 500px;
+    font-style: italic;
+}
+
+.relative{
+    position: relative;
+    right: 500px;
+}
+
+.imgrelative{
+    position: relative;
+
+}
+.vkabsolute{
+    position: absolute;
+    top: 0px;
+    left: 420px;
+    color: blue;
+
+
+}
