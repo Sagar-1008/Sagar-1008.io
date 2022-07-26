@@ -1,0 +1,49 @@
+   .position{
+    position: relative;
+    color: black;
+   }
+   
+   .vk{
+    position: absolute;
+    color: black;
+    top: 010px;
+    left: 50px;
+    font-size: 40px;
+    font-style: italic ;
+   }
+
+   .hasa{
+    position: absolute;
+    color: black;
+    top: 50px;
+    left: 600px;
+    font-size: 40px;
+    font-style: italic ;
+   }
+
+   .dk{
+    position: absolute;
+    color: black;
+    bottom: 40px;
+    left: 50px;
+    font-size: 40px;
+    font-style: italic ;
+   }
+
+   .hp{
+    position: absolute;
+    color: black;
+    top: 200px;
+    left: 50px;
+    font-size: 40px;
+    font-style: italic ;
+   }
+
+   .Maxi{
+    position: absolute;
+    color: black;
+    bottom: 400px;
+    right: 750px;
+    font-size: 40px;
+    font-style: italic ;
+   }
